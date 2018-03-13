@@ -7,3 +7,6 @@ themes/twentyfifteen
 themes/twentyseventeen
 plugins/akismet/
 uploads/
+
+*swp 
+*swo
