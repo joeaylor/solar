@@ -5,4 +5,4 @@ wp/content*
 themes/twentysixteen
 themes/twentyfifteen
 themes/twentyseventeen
-Wp-content/plugins/akismet/
+plugins/akismet/
