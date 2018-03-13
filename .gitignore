@@ -2,4 +2,4 @@ wp/content*
 
 !wp-content/plugins/
 !wp-content/themes/
-Wp-content/themes/twentysixteen
+themes/twentysixteen
