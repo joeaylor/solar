@@ -3,3 +3,5 @@ wp/content*
 !wp-content/plugins/
 !wp-content/themes/
 themes/twentysixteen
+themes/twentyfifteen
+themes/twentyseventeen
