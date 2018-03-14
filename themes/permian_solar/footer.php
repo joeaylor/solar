@@ -32,6 +32,7 @@
 	
 
 		
+<!--
 			<div class="popup-menu">
 				<h2 class="small-titles ta-center">The Menu</h2>
 				<ul>
@@ -43,6 +44,7 @@
 					<li><a class="anchorLink" href="#contact">Contact</a></li>
 				</ul>
 			</div>
+-->
 		</div>
 	</div>
 </div>
