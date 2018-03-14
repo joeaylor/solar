@@ -59,7 +59,8 @@ a.arrow-down { width: 58px; height: 58px; position: absolute; top: 65%; left: 50
 .footer a:active { color: #fff;}
 
 a.button {  display: block; padding: 0px 0px; color: #000; border: 4px solid #000; font-size: 1em; box-shadow: 3px 6px 0px black; padding: 20px 40px; letter-spacing: 2px; font-weight: 800; text-transform: uppercase; background: #fff; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; float: left; margin-top: 28px; }
-a.art-button { text-align: center;  margin-top: 50px; width: 50%; display: block; padding: 20px 10px 20px 10px; color: #FBB03B; font-size: 1.4em; letter-spacing: 2px; font-weight: 300; text-transform: uppercase; background: transparent;  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; border: 6px solid #FBB03B; font-weight: bold; text-decoration: none;}
+a.art-button { text-align: center;  margin-top: 50px; width: 50%; display: block; padding: 20px 10px 20px 10px; color: #FBB03B; font-size: 1.2em; letter-spacing: 2px; font-weight: 300; text-transform: uppercase; background: transparent;  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; border: 6px solid #FBB03B; font-weight: bold; text-decoration: none;}
+a.art-button:hover { background: #FBB03B; color: #fff; }
 a.button:hover { background: #000 !important; color: #fff; text-decoration: none; }
 a.button.white { border: 2px solid #fff; color: #fff; border-radius: 5px; }
 a.button.white:hover { background: #fff; color: maroon !important; text-decoration: none; }
@@ -189,7 +190,7 @@ ul.social-media li.icon { float: right; margin-left: 10px;}
 --------------------------------------------------------------------------------------- */
 
 .big-photo .left { width: 32%;  }
-.big-photo .right { position: absolute; right: 0; width: 95%; top: -50px;  }
+.big-photo .right { position: absolute; right: 0; width: 95%; top: -150px;  }
 .big-photo .left h4 { font-size: 1.95em; font-family: 'chalkboard'; }
 .big-photo .left p { font-size: 3.5vh; font-family: 'chalkboard'; font-weight: 400 !important; width: 100%; }
 
@@ -198,6 +199,8 @@ ul.social-media li.icon { float: right; margin-left: 10px;}
 .services h2 { font-size: 9vh; font-weight: 800; letter-spacing: 2px;  }
 .services h3 { font-style: italic; font-weight: 600; font-size: 5vh; }
 .services p { font-size: 1.8em; margin-bottom: 40px; line-height: 1.4em; }
+.services .section-hero { width: 90%; max-width: 1240px; margin: 0 auto; padding: 0px 0 0 0px;}
+
 
 .team .panel { width: 25%; float: left; display: inline; margin-right: 12.5%; }
 .team .panel.last { margin-right: 0; }
@@ -212,6 +215,11 @@ ul.social-media li.icon { float: right; margin-left: 10px;}
 .form .meta p { text-align: right; color: #fff; font-size: 1.4em; font-weight: 200; margin-bottom: 20px; }
 .form .meta { margin-right: 60px; }
 .form-box p, .text-area p { color: #4A4A4A; }
+
+#head-content { width: 100%; height: 100%; -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%); padding-bottom: 75px;}
+
+.big-photo .section-hero { padding: 0;}
 
 
 
@@ -412,60 +420,98 @@ and (max-width : 829px) {
 	ul.social-media { float: left;  }
 	
 	.section-hero h2.titles	{ text-align: center; }	
-.logo { position: relative; transform: translate(-50%); left: 50%; }
+	.logo { position: relative; transform: translate(-50%); left: 50%; }
 	
-	.big-photo .section-hero .left.marg-t-390 { margin-top: -190px !important; width: 100%; background:rgba( 255,255,255, 0.8); padding: 45px; position: relative; z-index: 999;   }
-
-.section-hero .left p { font-size: 1.3em; }
-.section-hero .left h4, .section-hero .left p { text-align: center;  }
-
-a.button { transform: translate(-50%); position: relative; left: 50%; text-align: center; padding: 6% 10%; font-size: 1em;  }
-.big-photo a.button { transform: translate(-50%); position: relative; left: 50%; text-align: center; padding: 8% 10%; font-size: .8em;  }	
+	.section-hero .left p { font-size: 1.3em; }
+	.section-hero .left h4, .section-hero .left p { text-align: center;  }
 	
-.pad-b-320 { padding-bottom: 200px !important;}
-
-
-
-
-
-
-
+	a.button { transform: translate(-50%); position: relative; left: 50%; text-align: center; /* padding: 6% 10%; */ font-size: 1em;  }
+	.big-photo a.button { transform: translate(-50%); position: relative; left: 50%; text-align: center; /* padding: 8% 10%; */ font-size: .8em;  }	
+		
+	.pad-b-320 { padding-bottom: 200px !important;}
 	
+	h2.sub-titles { text-align: center; }
+	.footer_wrap .left { float: none; }
+	.footer_wrap .left p { text-align: center; }
+	.footer_wrap h1 img { width: 350px; height: 100px; position: relative; left: 50%; transform: translate(-50%); padding-top: 80px;}
+
+	.footer_wrap .right { float: none; }
+	.footer_wrap .right p { text-align: center; }
+
+	.marg-t-60 { margin-top: 40px !important; }
+	.big-photo .right { position: absolute; right: 0; width: 95%; top: -50px;}
+
+    .big-photo .section-hero { padding: 220px 0 0 20px;}
+    .section-hero .right { background:rgba( 255,255,255, 0.8); }	
+    .services .right { width: 100%; padding: 45px; position: relative; z-index: 99; box-sizing: border-box; margin-top: 125px;  }
+    .section-hero .right { background:rgba( 255,255,255, 0.8); }	
+    .services .right { width: 100%; padding: 45px; position: relative; z-index: 99; box-sizing: border-box; margin-top: 125px;  }
+    .services .section-hero .right h2,  .services .section-hero .right h3, .services .section-hero .right p { text-align: center; }
+    .services .section-hero .right p { font-size: 1.4em;  }
 }
-	
+
+@media only screen 
+and (max-width : 690px) {
+	.services .left { position: absolute; left: 0; width: 100%; z-index: 9;  }
+}
+
+
+@media only screen 
+and (max-width : 560px) {
+	a.art-button { width: 100%; font-size: .9em; padding: 8% 5%;  }
+}	
 	
 @media only screen 
 and (max-width : 480px) {
 
-ul.social-media li.icon { display: none; }
+	ul.social-media li.icon { display: none; }
+	ul.social-media { padding-right: 0px;   }
+	ul.social-media li { font-size: 1em; float: left; margin-left: 0px; color: #fff; margin-left: auto; margin-right: auto;    }
+	ul.social-media li.icon { float: left; margin-left: 0px;}
 
-ul.social-media { padding-right: 0px;   }
-ul.social-media li { font-size: 1em; float: left; margin-left: 0px; color: #fff; margin-left: auto; margin-right: auto;    }
-ul.social-media li.icon { float: left; margin-left: 0px;}
-
-
-
- .section-hero .right { background:rgba( 255,255,255, 0.8); }	
- .services .right { width: 100%; padding: 45px; position: relative; z-index: 99; box-sizing: border-box; margin-top: 125px;  }
- .section-hero { width: 85%; }
- .services .section-hero { padding: 0px; }
- .services .left { position: absolute; left: 0; width: 100%; z-index: 9;  }
+	.section-hero { width: 85%; }
+	.services .section-hero { padding: 0px; }
+	.services.relative { margin-top: -75px; }
  
- .services.relative { margin-top: -75px; }
- 
- 
- .services .section-hero .right h2,  .services .section-hero .right h3, .services .section-hero .right p { text-align: center; }
-.services .section-hero .right p { font-size: 1.4em;  }
+	.team .panel { width: 100%; float: left; display: inline; margin-right: 12.5%; margin-bottom: 40px;  }
+	.team .section { padding: 60px; }
+	.team h2 { text-align: center; margin-top: 20px; }
 
-a.art-button { width: 100%; font-size: .9em; padding: 8% 5%;  }
+	.big-photo { margin-top: -65px; }
 
-.team .panel { width: 100%; float: left; display: inline; margin-right: 12.5%; margin-bottom: 40px;  }
-.team .section { padding: 60px; }
-.team h2 { text-align: center; margin-top: 20px; }
+	#head-content { width: 100%; height: 100%;-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%); padding-bottom: 30px;}
 
-.big-photo { margin-top: -65px; }
+	.section { width: 80%; max-width: 1240px; margin: 0 auto; padding: 80px 0;}
+	.big-photo .section-hero { padding: 120px 0 0 20px;}
+	.big-photo .section-hero .left.marg-t-390 { margin-top: -190px !important; width: 100%; background:rgba( 255,255,255, 0.8); padding: 45px; position: relative; z-index: 999;   }
+}
 
+	
+	
+	
+	
+	
+	@media only screen
+and (min-width : 830px)
+and (max-width : 1140px) {
+	.big-photo .right { position: absolute; right: 0; width: 95%; top: -50px;}
+	.big-photo .left { width: 52%;}
+	a.art-button { text-align: center;  margin-top: 50px; width: 70%; display: block; padding: 20px 5px 20px 5px; color: #FBB03B; font-size: 1em; letter-spacing: 2px; font-weight: 300; text-transform: uppercase; background: transparent;  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; border: 6px solid #FBB03B; font-weight: bold; text-decoration: none;}
 
+}
+
+@media only screen
+and (min-width : 481px)
+and (max-width : 829px) {
+	.big-photo .section-hero .left.marg-t-390 { margin-top: -290px !important; width: 100%; background:rgba( 255,255,255, 0.8); padding: 45px; position: relative; z-index: 999;   }
+
+}
+
+	@media only screen
+and (min-width : 481px)
+and (max-width : 829px) {
+	a.art-button { text-align: center;  margin: 50px auto 0 auto; display: block; padding: 15px 5px 15px 5px; color: #FBB03B; font-size: 1em; letter-spacing: 2px; font-weight: 300; text-transform: uppercase; background: transparent;  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; border: 6px solid #FBB03B; font-weight: bold; text-decoration: none;}
 
 
 }
@@ -474,56 +520,10 @@ a.art-button { width: 100%; font-size: .9em; padding: 8% 5%;  }
 {
   a.button { transform: translate(-50%); position: relative; left: 50%; text-align: center; padding: 8% 9%; font-size: .8em;  }	
 
-
 }
 
 
     
     
     
-
-
-
-
-	
-@media only screen 
-and (min-width : 481px) {
-
-
-		
-	}
-
-
-
-
-
-	@media only screen 
-and (min-width : 600px) {
-
-
-		
-		}
-		
-@media only screen 
-and (min-width : 800px) {
-
-
-}
-
-
-
-@media only screen 
-and (max-width : 1000px) {
-
-
-
-@media only screen 
-and (min-width : 1000px) {
-    margin-top: 290px !important;
-
-	
-
-
-
-}
 
