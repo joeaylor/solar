@@ -180,7 +180,7 @@ ul.social-media li.icon { float: right; margin-left: 10px;}
 .icon-call { padding-left: 36px; background: transparent url("img/phone.png") 0 0 no-repeat !important; -moz-background-size: 23px 20px !important; -o-background-size: 23px 20px !important; -webkit-background-size: 23px 20px !important; background-size: 23px 20px !important; margin-top: 5.5px; word-spacing: 5px;}
 .icon-mail { padding: 0 10px 0 30px; background: transparent url("img/mail.png") 0 0 no-repeat !important;v-moz-background-size: 23px 20px !important; -o-background-size: 23px 20px !important; -webkit-background-size: 23px 20px !important; background-size: 23px 20px !important; margin-top: 5.5px;}
 
-.logo { width: auto; height: auto; display: none;  }
+.logo { width: auto; height: auto;}
 
 
 
