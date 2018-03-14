@@ -420,7 +420,7 @@ and (max-width : 829px) {
 .section-hero .left h4, .section-hero .left p { text-align: center;  }
 
 a.button { transform: translate(-50%); position: relative; left: 50%; text-align: center; padding: 6% 10%; font-size: 1em;  }
-.big-photo a.button { transform: translate(-50%); position: relative; left: 50%; text-align: center; padding: 8% 10%; font-size: 1em;  }	
+.big-photo a.button { transform: translate(-50%); position: relative; left: 50%; text-align: center; padding: 8% 10%; font-size: .8em;  }	
 	
 .pad-b-320 { padding-bottom: 200px !important;}
 
@@ -457,7 +457,7 @@ ul.social-media li.icon { float: left; margin-left: 0px;}
  .services .section-hero .right h2,  .services .section-hero .right h3, .services .section-hero .right p { text-align: center; }
 .services .section-hero .right p { font-size: 1.4em;  }
 
-a.art-button { width: 100%; font-size: 1em; padding: 10% 5%;  }
+a.art-button { width: 100%; font-size: .9em; padding: 8% 5%;  }
 
 .team .panel { width: 100%; float: left; display: inline; margin-right: 12.5%; margin-bottom: 40px;  }
 .team .section { padding: 60px; }
