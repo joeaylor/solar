@@ -31,8 +31,9 @@ get_header(); ?>
 						<svg width="26" height="29" xmlns="http://www.w3.org/2000/svg"><ellipse fill="#FFF" cx="950" cy="29.5" rx="13" ry="14.5" fill-rule="evenodd" transform="translate(-937 -15)"/>
 						</svg>
 					</li>
-					<li class="icon-mail">Email Us</li>
+					<li class="icon-mail">Email <span class="us">Us</span></li>
 					<li class="icon-call">Call Us! 432.689.8186</li>
+
 				</ul>
 			</div><!-- end desktop --> 
 			<div class="push"></div>
@@ -45,7 +46,7 @@ get_header(); ?>
 		<div class="content_wrap">
 			<div class="content">
 	
-				<div id="head-content" class=" bg-image relative" style="background-image: url(http://localhost:8888/permian_solar/wp-content/uploads/2018/03/100.jpg); background- color: #111;">
+				<div id="head-content" class=" bg-image relative" style="background-image: url(http://localhost:8888/permian_solar/wp-content/uploads/2018/03/final.jpg); background- color: #111;">
 					<div class="page-hero-wrap relative">
 						<div class="border-hero relative">
 							<div class="section-hero">

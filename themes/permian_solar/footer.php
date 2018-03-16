@@ -22,10 +22,12 @@
 			</div>
 			<div class="right">
 				<h1>
-					<a href="#"><img src="<?php bloginfo( 'template_directory' ); ?>/img/test.png"></a>
+					
+
+					<a href="#"><img src="<?php bloginfo( 'template_directory' ); ?>/img/mob.png"></a>
 				</h1>
-				<p>10105 E County Rd 103, Midland, TX 79706</p>
-				<p>Copyright © 2018 Permian Solar & Energy Solutions LLC</p>
+				<p>10105 E County Rd 103, <br class="br">Midland, TX 79706</p>
+				<p>Copyright © 2018 <br class="br">Permian Solar & Energy<br class="br"> Solutions LLC</p>
 			</div>
 			<div class="push"></div>
 
