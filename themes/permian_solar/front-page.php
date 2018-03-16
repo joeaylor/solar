@@ -46,7 +46,7 @@ get_header(); ?>
 		<div class="content_wrap">
 			<div class="content">
 	
-				<div id="head-content" class=" bg-image relative" style="background-image: url(http://localhost:8888/permian_solar/wp-content/uploads/2018/03/final.jpg); background- color: #111;">
+				<div id="head-content" class=" bg-image relative" style="background-image: url(http://warm-change.flywheelsites.com/wp-content/uploads/2018/03/big-blue.jpg); background- color: #111;">
 					<div class="page-hero-wrap relative">
 						<div class="border-hero relative">
 							<div class="section-hero">
